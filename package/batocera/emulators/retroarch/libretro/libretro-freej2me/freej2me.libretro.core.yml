@@ -1,0 +1,4 @@
+shared_features:
+  - autosave
+systems:
+  - j2me

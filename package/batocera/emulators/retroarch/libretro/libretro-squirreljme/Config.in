@@ -1,0 +1,8 @@
+config BR2_PACKAGE_LIBRETRO_SQUIRRELJME
+	bool "libretro-squirreljme"
+	help
+	  SquirrelJME is a Java ME 8 virtual machine for embedded and
+	  IoT devices, packaged here as a libretro core (NanoCoat) to
+	  run J2ME (.jar/.jad) applications.
+
+	  https://squirreljme.cc

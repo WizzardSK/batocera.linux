@@ -4035,11 +4035,11 @@ j2me:
   manufacturer: Sun
   release: 2001
   hardware: portable
-  extensions: [jar]
+  extensions: [jar, jad, kjx]
   emulators:
     libretro:
-      squirreljme:  { requireAnyOf: [BR2_PACKAGE_LIBRETRO_SQUIRRELJME] }
       freej2me:     { requireAnyOf: [BR2_PACKAGE_LIBRETRO_FREEJ2ME] }
+      squirreljme:  { requireAnyOf: [BR2_PACKAGE_LIBRETRO_SQUIRRELJME] }
 
 zc210:
   name:       Zelda Classic
